@@ -1,0 +1,15 @@
+# CONFIGURATION FILE FOR VIKTOR WORKER TO RUN GENERIC EXECUTABLE / SCRIPT
+#
+# > Required keys: executables (dictionary with name of executable as key containing key-value pairs for path, arguments and working directory) and maxParallelProcesses
+# > The key of executable is used to distinguish between different jobs that can be transferred to the worker
+# > Use either double quotes: "example", or single quotes: 'example' 
+# > Double quotes require special characters to be escaped, whereas single quotes can be used for raw strings
+# > Trailing slashes are not required in paths
+# > If you do not want to call an executable set executables to: {}
+# > If the executable does not take any additional arguments specify arguments as an empty sequence: []
+executables:
+  run_grasshopper:
+    path: 'C:\Program Files\Viktor\Viktor worker for generic v5.1.1\run_grasshopper.bat'
+    arguments:
+    workingDirectoryPath: 'C:\Users\DARSHAN.H.CHAVAN.H\Documents\VIKTOR\Form_Finding'
+maxParallelProcesses: 1 # must be one, please do not change
