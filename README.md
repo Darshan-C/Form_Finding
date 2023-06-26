@@ -15,5 +15,5 @@ If you wish to try to create a VIKTOR app using the same Rhino-Grasshopper file,
 
 1. Clone the repository.
 2. Follow VIKTOR Grasshopper [tutorial](https://docs.viktor.ai/docs/getting-started/tutorials/grasshopper-tutorial)
-3. Particullarly check [4. Use your own Grasshopper model](https://docs.viktor.ai/docs/getting-started/tutorials/grasshopper-tutorial#4-use-your-own-grasshopper-model)
+3. particularly check [4. Use your own Grasshopper model](https://docs.viktor.ai/docs/getting-started/tutorials/grasshopper-tutorial#4-use-your-own-grasshopper-model)
 4. Explore more.
